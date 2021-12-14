@@ -135,7 +135,7 @@ if (m>1)
   for (j in (k+1):(m))
   {
     ab<-abs(raw_data[j]-raw_data[k])
-    if(ab<=3*l|ab<=10) 
+    if(ab<=2*l|ab<=10) 
       { flag_data[j] = 0}
     else
       break
